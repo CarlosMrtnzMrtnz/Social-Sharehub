@@ -1,0 +1,7 @@
+.lineOne {
+    border-right: 1px solid var(--morado-claro);
+    height: 100vh;
+    position: fixed;
+    padding: 10px;
+
+}

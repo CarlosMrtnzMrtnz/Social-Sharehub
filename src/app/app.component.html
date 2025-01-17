@@ -1,0 +1,24 @@
+
+
+
+@if (true) {
+    <router-outlet class=""></router-outlet>
+} @else if (false) {
+    <app-navbar></app-navbar>
+
+    <div class="row m-0">
+        <div class="col-2 ">
+            <app-left-menu class=""></app-left-menu>
+
+        </div>
+        <div class="col-7">
+            <router-outlet class=""></router-outlet>
+
+        </div>
+        <div class="col-3">
+            <app-right-menu class=""></app-right-menu>
+
+        </div>
+    </div>
+
+}

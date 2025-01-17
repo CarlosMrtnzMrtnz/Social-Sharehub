@@ -1,0 +1,100 @@
+
+.navbar-bg {
+    background-color: var(--morado-oscuro-secundario);
+}
+
+.text-color {
+    color: var(--morado-claro);
+}
+
+.input-busqueda {
+    background-color: var(--morado-claro);
+    font-family: 'TextoShareHubFont';
+    font-weight: bold;
+
+}
+
+.input-busqueda::placeholder {
+    color: var(--negro);
+    font-family: 'TextoShareHubFont';
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.input-busqueda:focus{
+    outline: 2px solid var(--morado-claro);
+    border: none;
+    box-shadow: none;
+}
+
+.img-perfil-navbar {
+    width: 30px;
+    height: 30px;
+}
+
+.dropdown-hiden-menu {
+    display: none;
+}
+
+.dropdown-bg {
+    background-color: var(--morado-oscuro-secundario);
+}
+
+.dropdown-menu li {
+    position: relative;
+}
+.dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: -100%;
+    top: -7px;
+}
+.dropdown-menu .dropdown-submenu-left {
+    right: 100%;
+    left: auto;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+}
+
+@media (max-width: 1190.40px) {
+    .hidden-nav-item {
+        display: none;
+    }
+
+    .input-busqueda {
+        width: 200px !important;
+    }
+
+    .dropdown-hiden-menu {
+        display: block;
+    }
+
+    .img-hidden-sm {
+        display: none;
+    }
+}
+
+
+/* From Uiverse.io by Praashoo7 */
+.input {
+    color: var(--negro);
+    font-family: 'TextoShareHubFont';
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: .4em;
+    background-color: var(--morado-claro);
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+    transition: 300ms ease-in-out;
+  }
+
+
+  .input:focus {
+    background-color: white;
+    transform: scale(1.01);
+    box-shadow: 1.3px 1.3px 10px #969696,
+               -1.3px -1.3px 10px #ffffff;
+  }

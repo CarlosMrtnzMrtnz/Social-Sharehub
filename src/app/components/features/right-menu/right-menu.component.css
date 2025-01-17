@@ -1,0 +1,91 @@
+/* From Uiverse.io by Yaya12085 */
+.cart {
+    max-width: 300px;
+    border-radius: 1rem;
+    background-color:var(--morado-oscuro-secundario);
+    padding: 0.6rem;
+  }
+
+  .infos {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    grid-gap: 0.5rem;
+    gap: 0.5rem;
+  }
+
+  .image {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 0.5rem;
+    background-color: rgb(118, 36, 194);
+    background: linear-gradient(to bottom right, rgb(118, 36, 194), rgb(185, 128, 240));
+  }
+
+  .info {
+    height: 4rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .name {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+  }
+
+
+
+  .stats {
+    width: 100%;
+    border-radius: 0.5rem;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    line-height: 0.9rem;
+    color: rgba(0, 0, 0, 1);
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 4px;
+  }
+
+  .state-value {
+    font-weight: 700;
+    color: rgb(118, 36, 194);
+  }
+
+  .request {
+    margin-top: 0.5rem;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    padding: 0.2rem 1rem;
+    font-size: 0.7rem;
+    line-height: 1rem;
+    transition: all .3s ease;
+  }
+
+  .request:hover {
+    background-color: var(--amarillo-principal);
+    color: #060606;
+  }
+
+
+  .imgUser {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 0.5rem;
+    background-color: rgb(118, 36, 194);
+    background: linear-gradient(to bottom right, rgb(118, 36, 194), rgb(185, 128, 240));
+}

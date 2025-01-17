@@ -1,0 +1,64 @@
+<nav class="navbar navbar-bg p-2 sticky-top">
+    <div class="container-fluid">
+        <div>
+            <a routerLink="/" class="d-flex align-content-center text-decoration-none">
+                <i class="fa-regular fa-comments me-3 text-color fs-2"></i>
+                <span class="navbar-brand mb-0 h1 fs-1 text-color LogoShareHubFont">ShareHub</span>
+            </a>
+        </div>
+        <div>
+            <ul class="nav justify-content-end TextoShareHubFont fw-semibold">
+                <li class="nav-item mt-2">
+                    <!-- <input type="text" class="input-busqueda rounded-pill w-100 border-0 py-1 px-2"
+                        placeholder="Buscar"> -->
+
+                        <input type="text" autocomplete="off" name="text" class="input" placeholder="Username">
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-color hidden-nav-item" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">Groups</a>
+                    <ul class="dropdown-menu dropdown-bg">
+                        <li><a class="dropdown-item text-color" routerLink="/">My Groups</a></li>
+                        <li><a class="dropdown-item text-color" routerLink="/">New Group</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-color hidden-nav-item" >Chat</a>
+                </li>
+                <li class="nav-item img-hidden-sm">
+                    <a class="nav-link text-color" >
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWJ5kphzVMREHoyVf9x7XXF2TNC1P8NU5Z0A&s" alt="" class="img-perfil-navbar rounded-circle">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link text-color hidden-nav-item" >Log Out</button>
+                </li>
+
+                <!-- dropdown hidden -->
+                <li class="nav-item dropdown dropdown-hiden-menu">
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="" alt="" class="img-perfil-navbar rounded-circle">
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-bg">
+                        <li>
+                            <button class="dropdown-item text-color" >Log Out</button>
+                        </li>
+                        <li><a class="dropdown-item text-color" routerLink="/perfil">Profil</a></li>
+                        <li><a class="dropdown-item text-color" href="#">Notifications</a></li>
+                        <li><a class="dropdown-item text-color" href="#">Explorer</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-item text-color dropdown-toggle dropstart" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Groups</a>
+                            <ul class="dropdown-menu dropdown-bg dropdown-submenu">
+                                <li><a class="dropdown-item text-color" routerLink="/">My Groups</a></li>
+                                <li><a class="dropdown-item text-color" routerLink="/">New Group</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item text-color" routerLink="/">Chat</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
