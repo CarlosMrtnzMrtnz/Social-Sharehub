@@ -3,10 +3,10 @@
     color :white;
     height: 100vh;
 }
-body {
+/* body {
     background-color: var(--morado-oscuro-principal);
 
-}
+} */
 .nombre {
     font-size: 70px;
 }
@@ -22,7 +22,6 @@ body {
     background-color: var(--morado-oscuro-secundario);
     box-shadow:  30px 30px 56px #0b001f,
     -30px -30px 56px #150037;
-
 }
 .linea2 {
     border-bottom: 2px solid #c97bf6;
@@ -42,3 +41,6 @@ body {
     top: 401px;
 }
 
+.oculto {
+    visibility:visible !important;
+}

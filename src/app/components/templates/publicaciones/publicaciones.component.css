@@ -1,5 +1,6 @@
 .main-box {
-    border: solid 1px var(--morado-claro);
+    /* border: solid 1px var(--morado-claro); */
+    box-shadow: 0 0 0 0.5px var(--morado-claro);
     border-radius: 20px;
     padding: 10px 50px;
     overflow: hidden;
@@ -7,7 +8,7 @@
 
 .imgPublic {
     width: 100%;
-    height: 50%;
+    height: 40vh;
 }
 
 .imgUser {
@@ -17,7 +18,8 @@
 }
 
 .acciones {
-    border-top: 1px solid var(--morado-claro);
+    border-top: 0.1px solid var(--morado-claro);
+    /* box-shadow: 0 0 0 0.5px var(--morado-claro); */
     width: 100%;
 }
 

@@ -1,4 +1,4 @@
-<div class="cart mt-2 mb-2">
+<!-- <div class="cart mt-2 mb-2 lineTwo">
     <div class="infos">
         <div class="image">
             <img class="imgUser"
@@ -31,4 +31,45 @@
     <button class="request" type="button">
         Add friend
     </button>
-</div>
+</div> -->
+
+
+
+@if (dataUsers) {
+    @for (item of dataUsers; track $index) {
+        <div class="cart mt-2 mb-2 lineTwo">
+            <div class="infos">
+                <div class="image">
+                    <img class="imgUser"
+                        [src]="item.imgProfil"
+                        alt="">
+                </div>
+                <div class="info">
+                    <div>
+                        <p class="name">
+                            {{item.userName}}
+                        </p>
+                    </div>
+                    <div class="stats">
+                        <p class="flex flex-col">
+                            Publications
+                            <span class="state-value">
+                                {{item.publications.length}}
+                            </span>
+                        </p>
+                        <p class="flex">
+                            Friends
+                            <span class="state-value">
+                                {{item.friends.length}}
+                            </span>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <button class="request" type="button">
+                Add friend
+            </button>
+        </div>
+    }
+}
